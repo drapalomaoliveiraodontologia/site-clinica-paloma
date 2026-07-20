@@ -1,11 +1,9 @@
-import { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://site-clinica-paloma-xg6q.vercel.app";
-
   return [
     {
-      url: baseUrl,
+      url: "https://site-clinica-paloma-xg6q.vercel.app",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
