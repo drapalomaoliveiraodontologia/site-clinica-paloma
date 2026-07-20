@@ -14,17 +14,19 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Dra. Paloma Oliveira Odontologia | Dentista em Arujá",
+
   description:
-    "Clínica odontológica em Arujá com atendimento personalizado. Tratamentos em ortodontia, implantes, estética dental, próteses e odontopediatria.",
+    "Clínica odontológica em Arujá com atendimento humanizado e tratamentos personalizados. Ortodontia, implantes dentários, estética dental, próteses, odontopediatria e clínica geral.",
 
   keywords: [
     "dentista em Arujá",
     "clínica odontológica em Arujá",
-    "odontologista Arujá",
-    "ortodontia Arujá",
+    "odontologia Arujá",
+    "Dra. Paloma Oliveira",
     "implante dentário Arujá",
     "clareamento dental Arujá",
-    "Dra. Paloma Oliveira",
+    "aparelho ortodôntico Arujá",
+    "dentista perto de mim",
   ],
 
   authors: [
@@ -35,10 +37,16 @@ export const metadata: Metadata = {
 
   creator: "Dra. Paloma Oliveira Odontologia",
 
+  metadataBase: new URL(
+    "https://site-clinica-paloma.vercel.app"
+  ),
+
   openGraph: {
     title: "Dra. Paloma Oliveira Odontologia | Dentista em Arujá",
     description:
-      "Excelência em odontologia. Atendimento humanizado e tratamentos personalizados para transformar seu sorriso.",
+      "Excelência em odontologia. Atendimento humanizado, tecnologia e tratamentos personalizados para o seu sorriso.",
+    url: "https://site-clinica-paloma.vercel.app",
+    siteName: "Dra. Paloma Oliveira Odontologia",
     locale: "pt_BR",
     type: "website",
   },
