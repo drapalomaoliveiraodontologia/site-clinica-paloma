@@ -13,32 +13,41 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dra. Paloma Oliveira Odontologia | Dentista em Arujá - SP",
+  title:
+    "Dra. Paloma Oliveira Odontologia | Clínica Odontológica em Arujá",
+
   description:
-    "Clínica odontológica em Arujá com atendimento personalizado. Tratamentos odontológicos, estética dental, ortodontia, implantes, próteses e cuidados para transformar seu sorriso.",
+    "Clínica odontológica em Arujá com atendimento humanizado, tecnologia de ponta e tratamentos personalizados para devolver saúde, estética e confiança ao seu sorriso.",
+
   keywords: [
     "dentista em Arujá",
     "clínica odontológica em Arujá",
-    "odontologista em Arujá",
+    "odontologia em Arujá",
     "implante dentário Arujá",
     "aparelho ortodôntico Arujá",
     "clareamento dental Arujá",
     "Dra. Paloma Oliveira Odontologia",
   ],
+
   authors: [
     {
       name: "Dra. Paloma Oliveira Odontologia",
     },
   ],
+
   creator: "Dra. Paloma Oliveira Odontologia",
-  publisher: "Dra. Paloma Oliveira Odontologia",
+
   openGraph: {
-    title: "Dra. Paloma Oliveira Odontologia | Dentista em Arujá",
+    title:
+      "Dra. Paloma Oliveira Odontologia | Clínica Odontológica em Arujá",
+
     description:
-      "Excelência em odontologia. Tratamentos personalizados, tecnologia e cuidado para devolver saúde, estética e confiança ao seu sorriso.",
+      "Tratamentos odontológicos personalizados com atendimento humanizado em Arujá.",
+
     locale: "pt_BR",
     type: "website",
   },
+
   robots: {
     index: true,
     follow: true,
