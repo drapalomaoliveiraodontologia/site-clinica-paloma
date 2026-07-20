@@ -11,7 +11,7 @@ const manrope = Manrope({
 
 const testimonials = [
   {
-    name: "João Janneta",
+    name: "João Jannetta",
     text: "Excelente atendimento desde a recepção. A Dra. Paloma explicou todo o tratamento com muita clareza e transmitiu bastante confiança.",
   },
   {
