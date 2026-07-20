@@ -43,11 +43,16 @@ export const metadata: Metadata = {
 
   openGraph: {
     title: "Dra. Paloma Oliveira Odontologia | Dentista em Arujá",
+
     description:
       "Excelência em odontologia. Atendimento humanizado, tecnologia e tratamentos personalizados para o seu sorriso.",
+
     url: "https://site-clinica-paloma.vercel.app",
+
     siteName: "Dra. Paloma Oliveira Odontologia",
+
     locale: "pt_BR",
+
     type: "website",
   },
 
