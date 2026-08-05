@@ -12,12 +12,12 @@ export default function Footer() {
       id="contato"
       className={`${manrope.className} scroll-mt-24 w-full border-t border-[#E8DFD3] bg-[#F7F3EC]`}
     >
-      <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
 
         <Reveal
           delay={40}
           direction="up"
-          className="grid gap-10 md:grid-cols-2 xl:grid-cols-4"
+          className="grid gap-8 md:grid-cols-2 xl:grid-cols-4"
         >
 
           <div className="max-w-sm">
@@ -83,7 +83,7 @@ export default function Footer() {
               href="https://wa.me/5511958768433?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação."
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-flex h-[46px] items-center justify-center rounded-full bg-[#C8A45D] px-5 text-[14px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#B79247]"
+              className="mt-6 inline-flex h-[46px] w-full items-center justify-center rounded-full bg-[#C8A45D] px-5 text-[14px] font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#B79247] sm:w-auto"
             >
               WhatsApp
             </a>
@@ -106,7 +106,7 @@ export default function Footer() {
               href="https://maps.google.com/?q=Estrada+de+Santa+Isabel+965B+Aruja"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-flex h-[46px] items-center justify-center rounded-full border border-[#E5DDD0] bg-white px-5 text-[14px] font-medium text-[#171717] transition-all duration-300 hover:bg-[#F4EEE7]"
+              className="mt-6 inline-flex h-[46px] w-full items-center justify-center rounded-full border border-[#E5DDD0] bg-white px-5 text-[14px] font-medium text-[#171717] transition-all duration-300 hover:bg-[#F4EEE7] sm:w-auto"
             >
               Como chegar
             </a>

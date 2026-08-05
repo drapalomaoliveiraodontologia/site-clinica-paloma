@@ -16,12 +16,12 @@ const galleryImages = [
 export default function Gallery() {
   return (
     <section className={`${manrope.className} w-full bg-[#FCFAF7]`}>
-      <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="mb-10 text-center">
           <p className="mb-4 text-[11px] font-semibold uppercase tracking-[0.34em] text-[#171717]">
             Galeria da Clínica
           </p>
-          <h2 className="text-[28px] leading-[1.15] font-[600] tracking-[-0.02em] text-[#171717] sm:text-[32px]">
+          <h2 className="text-[26px] leading-[1.15] font-[600] tracking-[-0.02em] text-[#171717] sm:text-[32px]">
             Um ambiente pensado para acolher e inspirar confiança.
           </h2>
         </div>

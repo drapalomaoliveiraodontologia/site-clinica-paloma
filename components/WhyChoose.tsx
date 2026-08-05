@@ -31,12 +31,12 @@ const reasons = [
 export default function WhyChoose() {
   return (
     <section className={`${manrope.className} w-full bg-[#FCFAF7]`}>
-      <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
         <div className="max-w-3xl">
           <p className="mb-4 text-[11px] font-semibold uppercase tracking-[0.34em] text-[#171717]">
             POR QUE NOS ESCOLHER
           </p>
-          <h2 className="text-[28px] leading-[1.18] font-[600] tracking-[-0.02em] text-[#171717] sm:text-[30px] lg:text-[32px]">
+          <h2 className="text-[26px] leading-[1.18] font-[600] tracking-[-0.02em] text-[#171717] sm:text-[30px] lg:text-[32px]">
             Cuidado pensado para oferecer uma experiência acima do esperado.
           </h2>
           <p className="mt-4 max-w-2xl text-[15px] leading-7 text-[#525252]">
@@ -44,7 +44,7 @@ export default function WhyChoose() {
           </p>
         </div>
 
-        <div className="mt-10 grid gap-x-8 gap-y-3 border-t border-[#E8DFD3] md:grid-cols-2">
+        <div className="mt-10 grid grid-cols-1 gap-x-8 gap-y-3 border-t border-[#E8DFD3] md:grid-cols-2">
           {reasons.map((reason, index) => (
             <article
               key={reason.title}

@@ -3,7 +3,7 @@ import type { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://site-clinica-paloma-xg6q.vercel.app",
+      url: "https://palomaoliveiraodontologia.com.br",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,

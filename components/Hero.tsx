@@ -34,11 +34,11 @@ export default function Hero() {
 
     >
 
-      <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-24">
+      <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-24">
 
 
 
-        <div className="grid items-center gap-16 lg:grid-cols-2">
+        <div className="grid items-center gap-10 sm:gap-14 lg:grid-cols-2 lg:gap-16">
 
 
 
@@ -54,7 +54,7 @@ export default function Hero() {
 
 
 
-            <span className="inline-block text-[17px] font-medium uppercase tracking-[0.22em] text-[#C8A45A]">
+            <span className="inline-block text-[12px] font-medium uppercase tracking-[0.22em] text-[#C8A45A] sm:text-[14px] lg:text-[17px]">
 
               CLÍNICA ODONTOLÓGICA • ARUJÁ
 
@@ -62,7 +62,7 @@ export default function Hero() {
 
 
 
-            <h1 className="mt-8 text-[62px] font-light leading-[0.92] tracking-[-0.04em] text-[#1B1B1B] lg:text-[78px]">
+            <h1 className="mt-8 text-[40px] font-light leading-[0.92] tracking-[-0.04em] text-[#1B1B1B] sm:text-[50px] md:text-[62px] lg:text-[78px]">
 
               Seu sorriso
 
@@ -82,7 +82,7 @@ export default function Hero() {
 
 
 
-            <p className="mt-10 max-w-[560px] text-[20px] leading-[1.8] text-[#616161]">
+            <p className="mt-10 max-w-[560px] text-[16px] leading-[1.8] text-[#616161] sm:text-[18px] lg:text-[20px]">
 
               Tratamentos personalizados, tecnologia de ponta e um cuidado
 
@@ -92,7 +92,7 @@ export default function Hero() {
 
 
 
-            <div className="mt-12 flex flex-wrap gap-5">
+            <div className="mt-12 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-5">
 
               <Link
 
@@ -100,7 +100,7 @@ export default function Hero() {
 
                 target="_blank"
 
-                className="inline-flex h-[62px] items-center rounded-full bg-[#C8A45A] px-9 text-[18px] font-semibold text-white shadow-xl transition-all duration-300 hover:bg-[#B8903F] hover:scale-[1.02]"
+                className="inline-flex h-[56px] w-full items-center justify-center rounded-full bg-[#C8A45A] px-6 text-[16px] font-semibold text-white shadow-xl transition-all duration-300 hover:bg-[#B8903F] hover:scale-[1.02] sm:h-[62px] sm:w-auto sm:px-9 sm:text-[18px]"
 
               >
 
@@ -116,7 +116,7 @@ export default function Hero() {
 
                 href="#localizacao"
 
-                className="inline-flex h-[62px] items-center rounded-full border border-[#DCC7A3] bg-white px-9 text-[18px] font-medium text-[#222222] transition-all duration-300 hover:border-[#C8A45A] hover:text-[#C8A45A]"
+                className="inline-flex h-[56px] w-full items-center justify-center rounded-full border border-[#DCC7A3] bg-white px-6 text-[16px] font-medium text-[#222222] transition-all duration-300 hover:border-[#C8A45A] hover:text-[#C8A45A] sm:h-[62px] sm:w-auto sm:px-9 sm:text-[18px]"
 
               >
 
@@ -130,7 +130,7 @@ export default function Hero() {
 
 
 
-            <div className="mt-14 flex flex-wrap items-center gap-8">
+            <div className="mt-14 flex flex-col items-start gap-4 sm:flex-row sm:flex-wrap sm:items-center sm:gap-8">
 
 
 
@@ -138,7 +138,7 @@ export default function Hero() {
 
                 <Star className="h-5 w-5 fill-[#C8A45A] text-[#C8A45A]" />
 
-                <span className="text-[17px] tracking-[0.18em] text-[#222222]">
+                <span className="text-[15px] tracking-[0.18em] text-[#222222] sm:text-[17px]">
 
                   ★★★★★
 
@@ -148,7 +148,7 @@ export default function Hero() {
 
 
 
-              <div className="h-6 w-px bg-[#D9D1C5]" />
+              <div className="hidden h-6 w-px bg-[#D9D1C5] sm:block" />
 
 
 
@@ -156,7 +156,7 @@ export default function Hero() {
 
                 <MapPin className="h-5 w-5 text-[#C8A45A]" />
 
-                <span className="text-[17px] font-medium text-[#222222]">
+                <span className="text-[15px] font-medium text-[#222222] sm:text-[17px]">
 
                   Arujá • SP
 
@@ -166,11 +166,11 @@ export default function Hero() {
 
 
 
-              <div className="h-6 w-px bg-[#D9D1C5]" />
+              <div className="hidden h-6 w-px bg-[#D9D1C5] sm:block" />
 
 
 
-              <span className="text-[17px] font-medium text-[#222222]">
+              <span className="text-[15px] font-medium text-[#222222] sm:text-[17px]">
 
                 Atendimento Humanizado
 
@@ -204,11 +204,15 @@ export default function Hero() {
 
                 relative
 
-                h-[720px]
+                h-[420px]
 
                 w-full
 
                 max-w-[620px]
+
+                sm:h-[520px]
+
+                lg:h-[720px]
 
                 overflow-hidden
 
@@ -224,19 +228,13 @@ export default function Hero() {
 
 
 
-              <Image
+              <img
 
                 src="/images/recepcao.png"
 
                 alt="Recepção da Dra. Paloma Oliveira"
 
-                fill
-
-                priority
-
-                sizes="(min-width:1024px) 55vw,100vw"
-
-                className="object-cover object-center transition duration-700 hover:scale-[1.02]"
+                className="h-full w-full object-cover object-center transition duration-700 hover:scale-[1.02]"
 
               />
 
@@ -274,7 +272,7 @@ export default function Hero() {
 
 
 
-        <div className="mt-20">
+        <div className="mt-12 sm:mt-20">
 
 
 
@@ -282,13 +280,13 @@ export default function Hero() {
 
 
 
-            <div className="grid md:grid-cols-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
 
               {/* CARD 1 */}
 
 
 
-              <div className="flex flex-col items-center justify-center px-10 py-10 text-center">
+              <div className="flex flex-col items-center justify-center px-6 py-8 text-center sm:px-10 sm:py-10">
 
 
 
@@ -296,7 +294,7 @@ export default function Hero() {
 
 
 
-                <h3 className="text-[24px] font-bold text-[#1B1B1B]">
+                <h3 className="text-[20px] font-bold text-[#1B1B1B] sm:text-[24px]">
 
                   Excelência
 
@@ -304,7 +302,7 @@ export default function Hero() {
 
 
 
-                <p className="mt-2 text-[16px] text-[#6A6A6A]">
+                <p className="mt-2 text-[14px] text-[#6A6A6A] sm:text-[16px]">
 
                   Atendimento Premium
 
@@ -320,7 +318,7 @@ export default function Hero() {
 
 
 
-              <div className="flex flex-col items-center justify-center border-l border-[#EEE5D7] px-10 py-10 text-center">
+              <div className="flex flex-col items-center justify-center border-t border-[#EEE5D7] px-6 py-8 text-center sm:px-10 sm:py-10 md:border-l md:border-t-0">
 
 
 
@@ -328,7 +326,7 @@ export default function Hero() {
 
 
 
-                <h3 className="text-[24px] font-bold text-[#1B1B1B]">
+                <h3 className="text-[20px] font-bold text-[#1B1B1B] sm:text-[24px]">
 
                   Arujá • SP
 
@@ -336,7 +334,7 @@ export default function Hero() {
 
 
 
-                <p className="mt-2 text-[16px] text-[#6A6A6A]">
+                <p className="mt-2 text-[14px] text-[#6A6A6A] sm:text-[16px]">
 
                   Estrada de Santa Isabel, 965B
 
@@ -352,7 +350,7 @@ export default function Hero() {
 
 
 
-              <div className="flex flex-col items-center justify-center border-l border-[#EEE5D7] px-10 py-10 text-center">
+              <div className="flex flex-col items-center justify-center border-t border-[#EEE5D7] px-6 py-8 text-center sm:px-10 sm:py-10 md:border-l md:border-t-0">
 
 
 
@@ -360,7 +358,7 @@ export default function Hero() {
 
 
 
-                <h3 className="text-[24px] font-bold text-[#1B1B1B]">
+                <h3 className="text-[20px] font-bold text-[#1B1B1B] sm:text-[24px]">
 
                   CRO-SP 144.973
 
@@ -368,7 +366,7 @@ export default function Hero() {
 
 
 
-                <p className="mt-2 text-[16px] text-[#6A6A6A]">
+                <p className="mt-2 text-[14px] text-[#6A6A6A] sm:text-[16px]">
 
                   Atendimento Humanizado
 
@@ -384,7 +382,7 @@ export default function Hero() {
 
 
 
-              <div className="flex flex-col items-center justify-center border-l border-[#EEE5D7] px-10 py-10 text-center">
+              <div className="flex flex-col items-center justify-center border-t border-[#EEE5D7] px-6 py-8 text-center sm:px-10 sm:py-10 md:border-l md:border-t-0">
 
 
 
@@ -392,7 +390,7 @@ export default function Hero() {
 
 
 
-                <h3 className="text-[24px] font-bold text-[#1B1B1B]">
+                <h3 className="text-[20px] font-bold text-[#1B1B1B] sm:text-[24px]">
 
                   Tecnologia
 
@@ -400,7 +398,7 @@ export default function Hero() {
 
 
 
-                <p className="mt-2 text-[16px] text-[#6A6A6A]">
+                <p className="mt-2 text-[14px] text-[#6A6A6A] sm:text-[16px]">
 
                   Equipamentos modernos
 

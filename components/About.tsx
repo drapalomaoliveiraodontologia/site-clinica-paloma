@@ -44,7 +44,7 @@ export default function About() {
 
     >
 
-      <div className="mx-auto flex max-w-7xl flex-col gap-14 px-6 py-20 lg:flex-row lg:items-center lg:px-8 lg:py-24">
+      <div className="mx-auto flex max-w-7xl flex-col gap-10 px-4 py-16 sm:px-6 lg:flex-row lg:items-center lg:gap-14 lg:px-8 lg:py-24">
 
 
 
@@ -90,7 +90,7 @@ export default function About() {
 
                 priority
 
-                className="h-[620px] w-full rounded-[22px] object-cover"
+                className="h-[360px] w-full rounded-[22px] object-cover sm:h-[500px] lg:h-[620px]"
 
               />
 
@@ -130,7 +130,7 @@ export default function About() {
 
 
 
-          <h2 className="max-w-[620px] text-[34px] font-semibold leading-[1.16] tracking-[-0.03em] text-[#171717] lg:text-[42px]">
+          <h2 className="max-w-[620px] text-[30px] font-semibold leading-[1.16] tracking-[-0.03em] text-[#171717] sm:text-[34px] lg:text-[42px]">
 
             Conhecimento, precisão e cuidado em cada atendimento.
 
@@ -138,7 +138,7 @@ export default function About() {
 
 
 
-          <p className="mt-7 max-w-[640px] text-[18px] leading-[2] text-[#5F5F5F]">
+          <p className="mt-7 max-w-[640px] text-[16px] leading-[1.9] text-[#5F5F5F] sm:text-[18px]">
 
             A Dra. Paloma Oliveira acredita que um tratamento odontológico de
 
@@ -156,7 +156,7 @@ export default function About() {
 
 
 
-          <div className="mt-9 flex flex-wrap gap-4">
+          <div className="mt-9 flex flex-wrap gap-3 sm:gap-4">
 
 
 
@@ -168,7 +168,7 @@ export default function About() {
 
                 key={highlight}
 
-                className="rounded-full border border-[#E7DED2] bg-white px-5 py-3 text-[14px] font-medium text-[#222222] shadow-sm transition duration-300 hover:border-[#C8A45D]"
+                className="rounded-full border border-[#E7DED2] bg-white px-4 py-2.5 text-[13px] font-medium text-[#222222] shadow-sm transition duration-300 hover:border-[#C8A45D] sm:px-5 sm:py-3 sm:text-[14px]"
 
               >
 
@@ -194,7 +194,7 @@ export default function About() {
 
             rel="noopener noreferrer"
 
-            className="mt-12 inline-flex h-[58px] items-center justify-center rounded-full bg-[#C8A45D] px-8 text-[17px] font-semibold text-white shadow-[0_12px_30px_rgba(200,164,93,.28)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#B89245]"
+            className="mt-12 inline-flex h-[54px] w-full items-center justify-center rounded-full bg-[#C8A45D] px-6 text-[16px] font-semibold text-white shadow-[0_12px_30px_rgba(200,164,93,.28)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#B89245] sm:w-auto sm:px-8 sm:text-[17px]"
 
           >
 
@@ -204,7 +204,7 @@ export default function About() {
 
 
 
-          <div className="mt-14 grid gap-5 sm:grid-cols-2">
+          <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2">
 
             <div className="rounded-[24px] border border-[#E8DED0] bg-white p-6 shadow-[0_12px_35px_rgba(0,0,0,.05)]">
 

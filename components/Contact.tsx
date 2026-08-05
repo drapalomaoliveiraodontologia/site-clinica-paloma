@@ -31,7 +31,7 @@ const contactItems = [
 export default function Contact() {
   return (
     <section id="contato" className={`${manrope.className} scroll-mt-24 w-full bg-[#FCFAF7]`}>
-      <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="overflow-hidden rounded-[32px] border border-[#E8DFD3] bg-[#F8F2E9] shadow-[0_20px_60px_rgba(17,17,17,0.08)]">
           <div className="grid gap-8 p-6 sm:p-8 lg:grid-cols-[1.05fr_0.95fr] lg:p-10">
             <div className="flex flex-col justify-between">
@@ -39,7 +39,7 @@ export default function Contact() {
                 <p className="text-[11px] font-semibold uppercase tracking-[0.34em] text-[#171717]">
                   CONTATO
                 </p>
-                <h2 className="mt-4 text-[28px] leading-[1.16] font-[600] tracking-[-0.02em] text-[#171717] sm:text-[30px] lg:text-[32px]">
+                <h2 className="mt-4 text-[26px] leading-[1.16] font-[600] tracking-[-0.02em] text-[#171717] sm:text-[30px] lg:text-[32px]">
                   Entre em contato para agendar sua avaliação.
                 </h2>
                 <p className="mt-5 max-w-[560px] text-[15px] leading-8 text-[#525252]">
@@ -51,13 +51,13 @@ export default function Contact() {
                 href="https://wa.me/5511958768433?text=Olá!%20Encontrei%20o%20site%20da%20Dra.%20Paloma%20Oliveira%20e%20gostaria%20de%20agendar%20uma%20avaliação."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-8 inline-flex h-[48px] w-fit items-center justify-center rounded-full bg-[#C8A45D] px-6 text-[15px] font-[600] text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#B79247]"
+                className="mt-8 inline-flex h-[48px] w-full items-center justify-center rounded-full bg-[#C8A45D] px-6 text-[15px] font-[600] text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#B79247] sm:w-fit"
               >
                 Falar pelo WhatsApp
               </a>
             </div>
 
-            <div className="grid gap-4 sm:grid-cols-2">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
               {contactItems.map((item) => (
                 <a
                   key={item.title}

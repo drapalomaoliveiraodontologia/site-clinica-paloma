@@ -62,7 +62,7 @@ export default function Testimonials() {
   const renderCard = (testimonial: (typeof testimonials)[number], index: number) => (
     <article
       key={`${testimonial.name}-${index}`}
-      className="rounded-[24px] border border-[#E9E1D6] bg-white p-7 shadow-[0_12px_40px_rgba(17,17,17,0.05)] transition-all duration-300 hover:-translate-y-[6px] hover:shadow-[0_18px_50px_rgba(17,17,17,0.08)]"
+      className="rounded-[24px] border border-[#E9E1D6] bg-white p-5 shadow-[0_12px_40px_rgba(17,17,17,0.05)] transition-all duration-300 hover:-translate-y-[6px] hover:shadow-[0_18px_50px_rgba(17,17,17,0.08)] sm:p-7"
     >
       <div className="flex gap-1 text-[16px] text-[#C8A45D]">
         {Array.from({ length: 5 }).map((_, starIndex) => (
@@ -76,13 +76,13 @@ export default function Testimonials() {
 
   return (
     <section id="depoimentos" className={`${manrope.className} scroll-mt-24 w-full bg-[#FCF8F3]`}>
-      <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <Reveal delay={40} direction="up" className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div className="max-w-3xl">
             <p className="mb-4 text-[11px] font-semibold uppercase tracking-[0.34em] text-[#171717]">
               Depoimentos
             </p>
-            <h2 className="text-[28px] leading-[1.15] font-[600] tracking-[-0.02em] text-[#171717] sm:text-[32px]">
+            <h2 className="text-[26px] leading-[1.15] font-[600] tracking-[-0.02em] text-[#171717] sm:text-[32px]">
               Depoimentos de nossos pacientes
             </h2>
             <p className="mt-4 text-[15px] leading-8 text-[#525252]">
