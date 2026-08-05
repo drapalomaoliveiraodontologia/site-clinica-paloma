@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://site-clinica-paloma-xg6q.vercel.app/sitemap.xml",
+    sitemap: "https://palomaoliveiraodontologia.com.br/sitemap.xml",
   };
 }
